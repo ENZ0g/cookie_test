@@ -6,5 +6,6 @@ city.oninput = () => {
 };
 
 if (document.cookie) {
-    city.value = document.cookie.split('=')[1]
+    city.value = document.cookie.split('=')[1];
+    city.readOnly;
 };
