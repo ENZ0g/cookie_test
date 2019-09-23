@@ -8,7 +8,7 @@ city.oninput = () => {
 let current_city = document.cookie.split('=')[1]
 
 if (current_city) {
-    city.value = current_city;
+    city.value = decodeURIComponent(current_city);
     city.readOnly = 1;
     reset_btn.style.display = 'block';
     reset_btn.onclick = () => {
