@@ -18,8 +18,8 @@ if (current_city) {
         document.cookie = '';
         city.readOnly = 0;
         reset_btn.style.display = 'none';
-        li_1.style.color = '#212529';
-        li_2.style.color = '#212529';
+        li_1.style.color = 'white';
+        li_2.style.color = 'white';
         li_3.style.display = 'none';
     }
 };
