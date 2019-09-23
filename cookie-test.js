@@ -12,5 +12,6 @@ if (document.cookie) {
     reset_btn.onclick = () => {
         document.cookie = '';
         city.readOnly = 0;
+        reset_btn.style.display = 'none';
     }
 };
