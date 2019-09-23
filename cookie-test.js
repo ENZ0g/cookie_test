@@ -7,5 +7,5 @@ city.oninput = () => {
 
 if (document.cookie) {
     city.value = document.cookie.split('=')[1];
-    city.readOnly;
+    city.readOnly = 1;
 };
