@@ -11,8 +11,8 @@ if (current_city) {
     city.value = decodeURIComponent(current_city);
     city.readOnly = 1;
     reset_btn.style.display = 'block';
-    li_1.style.color = '#e9ecef';
-    li_2.style.color = '#e9ecef';
+    li_1.style.color = '#ced4da';
+    li_2.style.color = '#ced4da';
     li_3.style.display = 'list-item';
     reset_btn.onclick = () => {
         document.cookie = '';
