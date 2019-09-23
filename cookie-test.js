@@ -9,5 +9,8 @@ if (document.cookie) {
     city.value = document.cookie.split('=')[1];
     city.readOnly = 1;
     reset_btn.style.display = 'block';
-    reset_btn.onclick = () => document.cookie = 'city=';
+    reset_btn.onclick = () => {
+        document.cookie = '';
+        city.readOnly = 0;
+    }
 };
