@@ -15,7 +15,10 @@
             }
         </style>
     </head>
-    <body>
+    <body style='display: flex;
+                 height: 100vh;
+                 flex-direction: column;
+                 justify-content: space-between;'>
         <div class='container'>
             <div class="input-group input-group-lg"
                  style='margin-top: 30vh'>
@@ -24,7 +27,7 @@
                 </div>
                 <input type="text" class="form-control" id='city'>
                 <div class="input-group-append">
-                    <button class="btn btn-outline-light"
+                    <button class="btn btn-outline-secondary"
                             type="button"
                             style='display: none'
                             id='reset_btn'>Поменять</button>
@@ -37,6 +40,14 @@
                     <li id='li_3'
                         style='display: none'>Для обновления информации нажмите кнопку 'Поменять'.</li>
             </ol>
+        </div>
+        <div class="container"
+             style='display: flex;
+                    justify-content: flex-end;'>
+            <a href='check-box.html'
+               class="badge badge-secondary"
+               style='margin-bottom: 20px;
+                      '>Задание с чекбоксами</a>
         </div>
         <script src='cookie-test.js'></script>
     </body>

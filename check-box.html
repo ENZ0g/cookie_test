@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Check boxes</title>
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+    </head>
+    <body style='display: flex;
+                 height: 100vh;
+                 flex-direction: column;
+                 justify-content: space-between;'>
+        <div class='container'>
+            <p class="lead" style='margin-top: 20px; margin-bottom: 20px;' id='text'>Сделайте ваш выбор. Мы его сохраним.</p>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Check_1">
+                <label class="custom-control-label" for="Check_1">Не звоните мне;</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Check_2">
+                <label class="custom-control-label" for="Check_2">Я прочитал и согласен с правилами использования сервиса;</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Check_3">
+                <label class="custom-control-label" for="Check_3">Я не выбираю эту галочку;</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Check_4">
+                <label class="custom-control-label" for="Check_4">Я подтверждаю, что свобода в интернете — это возможность выбирать галочки;</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Check_5">
+                <label class="custom-control-label" for="Check_5">Мне больше 12 лет;</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="Check_6">
+                <label class="custom-control-label" for="Check_6">Это задание выполнено правильно;</label>
+            </div>
+            <button type="button"
+                    class="btn btn-outline-primary"
+                    id='btn_0'
+                    style='margin-top: 10px;'
+                    >Сохранить</button>
+        </div>
+        <div class="container">
+            <a href='index.html'
+               class="badge badge-light"
+               style='margin-bottom: 20px;'>Задание с городами</a>
+        </div>
+        <script src='check-box.js'></script>
+    </body>
+</html>
