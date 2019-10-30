@@ -1,2 +1,1 @@
-# cookie_test
-https://enz0g.github.io/cookie_test/
+Simple pages (thanx bootstrap) that store the [city](https://enz0g.github.io/cookie_test/) and [your choice](https://enz0g.github.io/cookie_test/check-box.html) in cookies and localstorage respectively (using js)
